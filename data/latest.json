@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "report_id": "2026-W32",
+  "generated_at": "2026-08-09T13:46:25.288Z",
+  "period": {
+    "iso_week": "2026-W32",
+    "as_of_date": "2026-08-09"
+  },
+  "catalog": {
+    "total_records": 208,
+    "lifecycle_status": {
+      "active": 202,
+      "hidden": 2,
+      "observing": 4
+    },
+    "probe_outcome": {
+      "endpoint_failed": 2,
+      "method_not_tested": 3,
+      "probe_inconclusive": 1,
+      "protocol_verified": 202
+    },
+    "payment_terms_status": {
+      "historical_snapshot": 3,
+      "manual_review_required": 3,
+      "verified_current": 202
+    },
+    "paid_delivery_status": {
+      "not_tested": 208
+    },
+    "protocol_compatibility": {
+      "legacy_or_noncanonical": 32,
+      "not_verified": 6,
+      "standard_x402_v2": 170
+    }
+  },
+  "time_spaced_screening": {
+    "source_available": true,
+    "candidates": 10,
+    "batches": 1,
+    "status": {
+      "deep_screen_pending": 9,
+      "method_not_tested": 1
+    },
+    "rounds_completed": {
+      "1": 10
+    },
+    "time_spaced_passes": 0,
+    "paid_test_eligible": 0
+  },
+  "paid_delivery": {
+    "source_available": false,
+    "recorded_events": 0,
+    "paid_calls": 0,
+    "succeeded": 0,
+    "failed": 0,
+    "ambiguous": 0,
+    "success_rate_percent": null,
+    "success_rate_denominator": 0
+  },
+  "status_changes": {
+    "source_available": false,
+    "recorded_changes": 0,
+    "by_type": {}
+  },
+  "limitations": [
+    "A valid unpaid HTTP 402 challenge does not prove paid delivery.",
+    "Closely spaced historical probes are not counted as time-spaced screening passes.",
+    "Observed prices are snapshots; callers must read the live 402 quote before any payment.",
+    "Missing paid-test or change-log inputs are reported as unavailable, not inferred."
+  ]
+}
