@@ -1,6 +1,6 @@
 # AllX402 Weekly Verification Report — 2026-W32
 
-Generated: 2026-08-09T13:46:25.288Z
+Generated: 2026-08-10T01:58:18.567Z
 
 ## Snapshot
 
@@ -32,7 +32,8 @@ Generated: 2026-08-09T13:46:25.288Z
 
 - Input available: yes
 - Candidates: 10
-- Completed rounds: 1 round(s): 10
+- Completed rounds: 2 round(s): 10
+- Actual offsets from Round 1: Round 1: 0h / Round 2: 14.282–14.283h
 - Time-spaced passes: 0
 - Paid-test eligible after all gates: 0
 

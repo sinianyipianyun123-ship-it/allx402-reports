@@ -17,6 +17,10 @@ protocol_compatibility,standard_x402_v2,170,count
 time_spaced_screening,candidates,10,count
 time_spaced_screening,time_spaced_passes,0,count
 time_spaced_screening,paid_test_eligible,0,count
+time_spaced_screening,round_1_minimum_offset,0,hours
+time_spaced_screening,round_1_maximum_offset,0,hours
+time_spaced_screening,round_2_minimum_offset,14.282,hours
+time_spaced_screening,round_2_maximum_offset,14.283,hours
 time_spaced_status,deep_screen_pending,9,count
 time_spaced_status,method_not_tested,1,count
 paid_delivery,paid_calls,0,count
